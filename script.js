@@ -545,11 +545,13 @@ function touchEnded() {}
 function keyTyped() {
   if(key === "u"){
     n++;
+    console.log(n);
     samplingPanel();
   }
 
   else if(key === "d"){
     n--;
+    console.log(n);
     samplingPanel();
   }
   
