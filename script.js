@@ -543,20 +543,30 @@ function touchEnded() {}
 
 
 function keyTyped() {
-  if (key === "s") {
-    showingSampleHistogram=true;
-    drawHistogram(salaries,500000,[100, 150, 200]);
-    decide();
+  if(key === "u"){
+    n++;
     samplingPanel();
-    
+  }
+
+  else if(key === "d"){
+    n--;
+    samplingPanel();
   }
   
-  else if (key === "h") {
-    showingHistogram=true;
-    drawHistogram(salaries,500000,[100, 150, 200]);
-    decide();
-    samplingPanel();
-  }
+  // else if (key === "s") {
+  //   showingSampleHistogram=true;
+  //   drawHistogram(salaries,500000,[100, 150, 200]);
+  //   decide();
+  //   samplingPanel();
+    
+  // }
+  
+  // else if (key === "h") {
+  //   showingHistogram=true;
+  //   drawHistogram(salaries,500000,[100, 150, 200]);
+  //   decide();
+  //   samplingPanel();
+  // }
   
 }
 
