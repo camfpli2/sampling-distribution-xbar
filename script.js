@@ -536,9 +536,12 @@ function touchStarted() {
   for(var z=0;z<buttons.length;z++){
     buttons[z].tapit();
   }
+  return false;
 }
 
-function touchEnded() {}
+function touchEnded() {
+  return false;
+}
 
 
 
