@@ -540,7 +540,7 @@ function touchStarted() {
 }
 
 function touchEnded() {
-  return false;
+  //return false;
 }
 
 
